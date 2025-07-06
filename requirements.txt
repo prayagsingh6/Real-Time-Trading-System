@@ -1,0 +1,5 @@
+kafka-python==2.0.2
+psycopg2-binary==2.9.7
+sqlalchemy==2.0.21
+watchdog==3.0.0
+redis==4.6.0
