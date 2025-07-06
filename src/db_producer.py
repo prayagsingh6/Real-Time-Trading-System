@@ -140,8 +140,7 @@ class DatabaseProducer:
         Get the last processed transaction ID to determine starting point.
         
         For this implementation, always returns 0 to process all existing
-        transactions from the beginning. In production, this could maintain
-        state in Redis or a separate tracking table.
+        transactions from the beginning.
         
         Returns:
             int: Transaction ID to start processing from (0 = from beginning)
